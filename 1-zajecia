@@ -45,6 +45,10 @@ lub profesora sposob
             _   _         _       _      _
 f(x,y,z) = (x ^ y ^ z) v (x ^ y ^ z) v ( x ^ y ^ z)
 
+Rysuje to ^^^^ jak na tc      wiec ^ -> bramka and  v -> or   _ -> not
+
+
+
 
 
 
