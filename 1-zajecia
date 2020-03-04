@@ -1,0 +1,53 @@
+Z kolokwium trzeba miec 3 (jedna poprawka)
+Co zajecia wejsciowka (zaliczona na +1pkt ... nie zaliczona na -1pkt)
+-0.5      <0
+  0       0-2
++0.5      2<
+
+minimalizacja funkcji boolowskiej:
+
+x y z  f
+0 0 0  0
+0 0 1  1
+0 1 0  1
+0 1 1  1
+1 0 0  0
+1 0 1  0
+1 1 0  0
+1 1 1  0
+
+x f(x) -> indentycznosc (nazwa funkcji) 
+0  0
+1  1
+
+Wejsciowka:
+Dostaje liczbe dziesietna:
+
+173                   
+10101101
+
+lub profesora sposob
+
+173 1   Czytam ofc od dołu
+86  0   10101101   -> dopisac indeks systemu binarnego
+43  1
+21  1
+10  0
+5   1
+2   0
+1   1
+0
+
+1 0 1 0 1 1 0 1
+128 + 0 + 32 + 0 + 8 + 4 + 0 + 1  => 173                 Legenda: ^ -> koniunkcja      _ -> zaprzeczenie
+          
+            0   0   1     0   1   0     0    1   1        to sie wzielo z 1 tabeli biore tylko to z jedynka :)
+            _   _         _       _      _
+f(x,y,z) = (x ^ y ^ z) v (x ^ y ^ z) v ( x ^ y ^ z)
+
+
+
+
+
+
+
